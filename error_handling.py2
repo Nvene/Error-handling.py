@@ -1,0 +1,21 @@
+num2 = 45.99
+try:
+    num2 + num3
+    import mathematics
+    num2 = mathematics.floor(num2)
+except ModuleNotFoundError:
+    print('Module does not exist, invent it')
+except:
+    print('An error was encountered')
+    
+    
+    numbers = 10
+print("stage 1")
+
+try:
+    you = int(input("enter the number:"))
+    sum_= you + numbers
+except:
+    print("sorry we expects only real numbers")
+print("this line prints before sum")    
+print(sum_)
